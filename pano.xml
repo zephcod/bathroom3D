@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" appversion="6.1.11" apprev="18043">
+  <panorama id="node2">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0" levelbias="0.400" overlap="1" width="1000" levelbiashidpi="1.000" height="1000" leveltilesize="510">
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" pan="360"/>
+    </view>
+    <userdata nodeid="node2" datetime="" description="" author="Sofonias" latitude="" copyright="" title="Bathroom" info="" tags="GF" source="" comment="" longitude="" heading="0" customnodeid="">
+      <mapcoords x_floorplan_percent="inf" y_floorplan_percent="inf" x="nan" y="nan" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" border="1" borderradius="1" textalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderalpha="1" enabled="1" backgroundcolor="0xffffff" height="20" backgroundalpha="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot description="" skinid="ht_node" title="Bathroom Panorama" id="Bathroom" target="-53.7/0.4/108.0" tilt="-13.27" pan="-131.07" url="{node3}"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomout="0" zoomspeed="5" blendcolor="0x000000" enabled="1" type="cut" zoomin="2" blendtime="0" softedge="0" zoomafteroutfov="20" zoomafterinfov="90" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" contextprojections="0" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0" levelbias="0.400" overlap="1" width="750" levelbiashidpi="1.000" height="750" leveltilesize="510">
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" pan="360"/>
+    </view>
+    <userdata nodeid="node3" datetime="" description="" author="" latitude="" copyright="" title="" info="" tags="GF" source="" comment="" longitude="" heading="0" customnodeid="">
+      <mapcoords x_floorplan_percent="inf" y_floorplan_percent="inf" x="nan" y="nan" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" border="1" borderradius="1" textalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderalpha="1" enabled="1" backgroundcolor="0xffffff" height="20" backgroundalpha="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot description="Toilet panorama" skinid="ht_node" title="Toilet" id="Toilet" target="-61.5/0.8/108.0" tilt="-13.16" pan="-291.65" url="{node2}"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomout="0" zoomspeed="5" blendcolor="0x000000" enabled="1" type="cut" zoomin="2" blendtime="0" softedge="0" zoomafteroutfov="20" zoomafterinfov="90" zoomoutpause="1"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" speedwheel="1" simulatemass="1" rubberband="0" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" contextprojections="0" contextfullscreen="1" lockedmouse="0"/>
+  </panorama>
+  <masternode>
+    <userdata nodeid="master" datetime="" description="" author="" latitude="" copyright="" title="" info="" tags="" source="" comment="" longitude="" heading="0" customnodeid=""/>
+  </masternode>
+  <map zoomlevels="1" transparent="0" width="0" title="Bathroom Floor Plan" tileformat="jpg" bgcolor="rgba(255, 255, 255, 1)" type="file" id="FloorPlan01" floorplannorth="220" height="0"/>
+</tour>
